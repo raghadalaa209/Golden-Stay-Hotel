@@ -1,0 +1,247 @@
+body {
+    background-color: #F3EEE7;
+
+
+}
+
+a {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 30px;
+    text-decoration: none;
+    color: #7B3F00;
+    margin-top: 25px;
+}
+
+
+nav {
+    background: rgba(123, 63, 0, 0.15);
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+    padding: 20px;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, serif;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content {
+    max-width: 800px;
+    padding: 20px;
+}
+
+.content h3 {
+    font-size: 25px;
+    letter-spacing: 4px;
+    margin-bottom: 15px;
+}
+
+.content h1 {
+    font-size: 80px;
+    margin-bottom: 20px;
+    color: #7B3F00;
+    font-style: bold;
+}
+
+.content p {
+    font-size: 28px;
+    margin-bottom: 35px;
+}
+
+.rooms-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.room-card {
+    width: 280px;
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.room-card h2 {
+    color: #6d5848;
+    font-family: Georgia, serif;
+    font-size: 22px;
+}
+
+.room-card p {
+    font-size: 18px;
+    color: #444;
+    line-height: 1.5;
+    min-height: 40px;
+    margin: 15px 0;
+}
+
+.price {
+    color: #b58b55;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #6d5848;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 80px;
+    height: 60px;
+}
+
+.note {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+body {
+    margin: 0;
+}
+
+.facilities {
+    padding: 80px 50px;
+    text-align: center;
+}
+
+.facilities h1 {
+    font-size: 55px;
+    color: #6d5848;
+    margin-bottom: 60px;
+    font-style: italic;
+}
+
+.facilities-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.facility {
+    width: 280px;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+}
+
+.facility:hover {
+    transform: translateY(-10px);
+}
+
+.facility img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.facility h3 {
+    color: #5d4737;
+    font-size: 24px;
+    margin: 20px 0 10px;
+}
+
+.facility p {
+    color: #666;
+    padding: 0 20px 25px;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+body {
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    color: #6d5848;
+    margin-top: 40px;
+}
+
+.contact-info {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.contact-info p {
+    margin: 10px;
+    font-size: 18px;
+}
+
+form {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+select,
+textarea {
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #b58b55;
+    box-shadow: 0 0 5px #b58b55;
+    outline: none;
+}
+
+button {
+    padding: 12px;
+    background: #6d5848;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b58b55;
+}
+
+.logo {
+    width: 90pxpx;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+}
